@@ -17,7 +17,7 @@ The dataset is loaded using the `pandas` library, and a brief analysis is perfor
 ### Dataset Distribution
 The dataset is balanced with a roughly equal number of spam and ham messages. A pie chart is generated to visualize the distribution:
 
-![Dataset Distribution](path/to/dataset_distribution.png)
+![Dataset Distribution](/dataset_distribution.png)
 
 ## Preprocessing 🧹
 The preprocessing steps include:
@@ -50,15 +50,15 @@ The model's performance is evaluated using the following metrics:
 ### Evaluation Results
 Here are the results of the model evaluation:
 
-- **Accuracy**: 0.98
+- **Accuracy**: 0.980
 - **Confusion Matrix**:
   ```plaintext
   [[38980   558]
    [ 1134 42776]]
   ```
-- **Precision**: 0.99
-- **Recall**: 0.97
-- **F1 Score**: 0.98
+- **Precision**: 0.987
+- **Recall**: 0.974
+- **F1 Score**: 0.981
 
 ## Usage 🛠️
 To run the project, follow these steps:
