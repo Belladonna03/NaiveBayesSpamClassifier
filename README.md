@@ -14,6 +14,11 @@ The dataset used in this project is a CSV file named `combined_data.csv`. The da
 
 The dataset is loaded using the `pandas` library, and a brief analysis is performed to understand the distribution of spam and ham messages.
 
+### Dataset Distribution
+The dataset is balanced with a roughly equal number of spam and ham messages. A pie chart is generated to visualize the distribution:
+
+![Dataset Distribution](path/to/dataset_distribution.png)
+
 ## Preprocessing 🧹
 The preprocessing steps include:
 
@@ -41,6 +46,19 @@ The model's performance is evaluated using the following metrics:
 - **Precision**: The proportion of true positives among the predicted positives.
 - **Recall**: The proportion of true positives among the actual positives.
 - **F1 Score**: The harmonic mean of precision and recall.
+
+### Evaluation Results
+Here are the results of the model evaluation:
+
+- **Accuracy**: 0.98
+- **Confusion Matrix**:
+  ```plaintext
+  [[38980   558]
+   [ 1134 42776]]
+  ```
+- **Precision**: 0.99
+- **Recall**: 0.97
+- **F1 Score**: 0.98
 
 ## Usage 🛠️
 To run the project, follow these steps:
