@@ -3,17 +3,6 @@
 ## Overview 🌟
 This project implements a spam detection system using the Naive Bayes classifier. The goal is to classify text messages as either spam or ham (non-spam) based on their content. The project involves preprocessing the text data, extracting features, and training a Naive Bayes model to make predictions.
 
-## Table of Contents 📚
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Preprocessing](#preprocessing)
-- [Feature Extraction](#feature-extraction)
-- [Model Training](#model-training)
-- [Evaluation](#evaluation)
-- [Usage](#usage)
-- [Dependencies](#dependencies)
-- [License](#license)
-
 ## Introduction 🚀
 Spam detection is a common problem in natural language processing (NLP). This project uses the Naive Bayes algorithm, which is a probabilistic classifier based on Bayes' theorem. The algorithm is particularly well-suited for text classification tasks due to its simplicity and effectiveness.
 
